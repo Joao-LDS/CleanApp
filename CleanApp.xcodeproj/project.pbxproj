@@ -10,7 +10,7 @@
 		8752682726F175C100439DD1 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8752682626F175C100439DD1 /* AddAccount.swift */; };
 		8752682926F1775300439DD1 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8752682826F1775300439DD1 /* AccountModel.swift */; };
 		8752683826F177B900439DD1 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752682F26F177B900439DD1 /* Data.framework */; };
-		8752683D26F177B900439DD1 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8752683C26F177B900439DD1 /* DataTests.swift */; };
+		8752683D26F177B900439DD1 /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8752683C26F177B900439DD1 /* RemoteAddAccountTests.swift */; };
 		8752684726F177FB00439DD1 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752681E26F1733200439DD1 /* Domain.framework */; };
 		8752684826F177FB00439DD1 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8752681E26F1733200439DD1 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -54,7 +54,7 @@
 		8752682F26F177B900439DD1 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8752683226F177B900439DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8752683726F177B900439DD1 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8752683C26F177B900439DD1 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		8752683C26F177B900439DD1 /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
 		8752683E26F177B900439DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +127,7 @@
 		8752683B26F177B900439DD1 /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				8752683C26F177B900439DD1 /* DataTests.swift */,
+				8752683C26F177B900439DD1 /* RemoteAddAccountTests.swift */,
 				8752683E26F177B900439DD1 /* Info.plist */,
 			);
 			path = DataTests;
@@ -302,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8752683D26F177B900439DD1 /* DataTests.swift in Sources */,
+				8752683D26F177B900439DD1 /* RemoteAddAccountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
